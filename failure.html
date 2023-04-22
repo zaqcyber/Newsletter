@@ -11,20 +11,15 @@
 </head>
 <body>
     
-
-    <div class="offcanvas offcanvas-start show text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkLabel">Failed</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <p>Oh Oh you are not signed up for the newsletter</p>
-        </div>
-        <form action="/failure" method="post">
-            <button class="btn btn-lg btn-warning">Try Again</button>
-        </form>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Sign Up fail</h1>
+      <p class="lead">Oh Oh NO! we are unable to sign you up to our newsletter, please click on the button below to try again...</p>
     </div>
-
+    <form action="/failure" method="post">
+      <button class="btn btn-lg btn-warning">Try Again</button>
+    </form>
+  </div>
 
 </body>
 </html>
